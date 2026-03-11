@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    fetch("../pages/navbar.html")
+    fetch("pages/navbar.html")
         .then(res => res.text())
         .then(data => {
             const navbar = document.getElementById("navbar");
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
 
-    fetch("../pages/footer.html")
+    fetch("pages/footer.html")
         .then(res => res.text())
         .then(data => {
             const footer = document.getElementById("footer");
