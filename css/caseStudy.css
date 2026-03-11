@@ -1,0 +1,151 @@
+body{
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.nav-link{
+    font-size:18px;
+    color:#666;
+}
+
+.nav-link:hover{
+    color:#1e88e5;
+}
+.talk-btn {
+    border: 2px solid #39a7dc;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #000;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.talk-btn:hover {
+    background: #39a7dc;
+    color: white;
+}
+
+.navbar-brand img{
+    height:auto;
+    width:auto;
+}
+@media (max-width:992px){
+    .navbar-brand img{
+        height:32px;
+    }
+}
+
+@media (max-width:576px){
+    .navbar-brand img{
+        height:26px;
+    }
+}
+
+.case-hero {
+    padding: 110px 0;
+    background: #f4f9fd;
+}
+
+.case-title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #39a7dc;
+}
+
+.case-desc {
+    color: #6c757d;
+}
+
+.featured-case {
+    padding: 100px 0;
+}
+
+.featured-img {
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #39a7dc;
+}
+
+.case-text {
+    color: #6c757d;
+}
+
+.case-list {
+    list-style: none;
+    padding: 0;
+}
+
+.case-list li::before {
+    content: "✔ ";
+    color: #39a7dc;
+}
+
+.case-grid {
+    padding: 90px 0;
+    background: #f8fbff;
+}
+
+.case-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.case-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.case-results {
+    padding: 80px 0;
+    background: #f4f9fd;
+}
+
+.case-results h2 {
+    color: #39a7dc;
+}
+
+.case-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg,#39a7dc,#2b8fc0);
+    color: white;
+}
+
+.cta-btn {
+    background: white;
+    color: #39a7dc;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.copyright-footer{
+    background:#1c1f3a;
+    padding:15px 0;
+    color:#ccc;
+    font-size:14px;
+}
+
+.copyright-text{
+    margin:0;
+}
+
+.footer-links{
+    margin:0;
+}
+
+.footer-links a{
+    color:#ccc;
+    text-decoration:none;
+    margin:0 5px;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#1e88e5;
+}

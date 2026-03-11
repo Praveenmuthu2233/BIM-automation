@@ -1,0 +1,162 @@
+body{
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.nav-link{
+    font-size:18px;
+    color:#666;
+}
+
+.nav-link:hover{
+    color:#1e88e5;
+}
+
+.talk-btn{
+    border:2px solid #1e88e5;
+    padding:10px 30px;
+    border-radius:30px;
+    color:#000;
+}
+
+.talk-btn:hover{
+    background:#1e88e5;
+    color:white;
+}
+.navbar-brand img{
+    height:auto;
+    width:auto;
+}
+@media (max-width:992px){
+    .navbar-brand img{
+        height:32px;
+    }
+}
+
+@media (max-width:576px){
+    .navbar-brand img{
+        height:26px;
+    }
+}
+
+
+.technology-hero {
+    background:linear-gradient(120deg,#39a7dc,#0f3c64);
+    color:white;
+    padding:100px 20px;
+}
+
+.tech-title {
+    font-size: 46px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.technology-overview {
+    padding: 100px 0;
+}
+
+.tech-img {
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #39a7dc;
+}
+
+.tech-text {
+    color: #6c757d;
+}
+
+.tech-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tech-list li::before {
+    content: "✔ ";
+    color: #39a7dc;
+}
+
+
+
+/* STACK */
+
+.tech-stack {
+    padding: 90px 0;
+    background: #f8fbff;
+}
+
+.tech-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tech-card img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+
+
+/* PROCESS */
+
+.development-process {
+    padding: 90px 0;
+}
+
+.process-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.process-card h3 {
+    color: #39a7dc;
+}
+
+
+
+/* CTA */
+
+.tech-cta {
+    padding: 100px 0;
+    background: linear-gradient(135deg,#39a7dc,#2b8fc0);
+    color: white;
+}
+
+.cta-btn {
+    background: white;
+    color: #39a7dc;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.copyright-footer{
+    background:#1c1f3a;
+    padding:15px 0;
+    color:#ccc;
+    font-size:14px;
+}
+
+.copyright-text{
+    margin:0;
+}
+
+.footer-links{
+    margin:0;
+}
+
+.footer-links a{
+    color:#ccc;
+    text-decoration:none;
+    margin:0 5px;
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:#1e88e5;
+}
